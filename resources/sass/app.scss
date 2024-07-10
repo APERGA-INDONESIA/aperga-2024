@@ -88,12 +88,12 @@
                 transform: translate(-50%, -50%);
                 display: none;
                 opacity: 0;
-                text-align: center; 
+                text-align: center;
                 .label {
                     font-size: 16px;
                 }
             }
-            img{
+            img {
                 z-index: 0;
             }
             .overlay {
@@ -105,11 +105,12 @@
                 width: 100%;
                 height: 100%;
                 background-color: rgba(0, 0, 0, 0.8);
-                opacity: 0; 
+                opacity: 0;
                 transition: opacity 0.3s ease;
                 border-radius: 5px;
             }
-            &:hover .overlay, &:hover .remove-image {
+            &:hover .overlay,
+            &:hover .remove-image {
                 opacity: 1;
             }
         }
@@ -389,7 +390,7 @@ $max-height-vh: 85vh;
                     margin-right: 5px;
                 }
                 &.danger {
-                    background: #D32F2F;
+                    background: #d32f2f;
                     border: 1px solid #9d1515;
                     color: #fff;
                     &:hover {
@@ -585,7 +586,7 @@ $max-height-vh: 85vh;
                     padding: 10px;
                     min-height: 40px;
                     height: auto;
-                    svg{
+                    svg {
                         font-size: 20px;
                         color: #28a745;
                         font-weight: bold;
@@ -683,20 +684,20 @@ $max-height-vh: 85vh;
     }
 }
 
-.progress-bar{
+.progress-bar {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    .progress-item{
+    .progress-item {
         position: relative;
         height: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .progress-item-icon{
+        .progress-item-icon {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -707,44 +708,44 @@ $max-height-vh: 85vh;
             border-radius: 50%;
             color: #fff;
             font-size: 30px;
-            &.active{
+            &.active {
                 background-color: #135589;
             }
-            &.reject{
-                background-color: #D32F2F;
+            &.reject {
+                background-color: #d32f2f;
             }
         }
-        .label{
+        .label {
             color: #000;
             margin-top: 10px;
             font-size: 14px;
         }
     }
-    .progress-item-line{
+    .progress-item-line {
         width: 200px;
         height: 4px;
         border: 2px solid #dadade;
         border-radius: 5px;
         margin: 0px 20px 20px 20px;
-        &.active{
+        &.active {
             border: 3px solid #135589;
         }
-        &.reject{
-            border: 3px solid #D32F2F;
+        &.reject {
+            border: 3px solid #d32f2f;
         }
     }
 }
-.detail-contract{
+.detail-contract {
     width: 40%;
     margin-top: 50px;
-    .contract-item{
+    .contract-item {
         height: 40px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         text-transform: capitalize;
-        .label{
+        .label {
             color: #000;
             margin-top: 10px;
             font-size: 14px;
@@ -752,14 +753,14 @@ $max-height-vh: 85vh;
     }
 }
 
-.contract-status{
+.contract-status {
     padding: 5px;
     border-radius: 4px;
     border: 1px solid #28a745;
     color: #28a745;
     text-transform: capitalize;
-    &.reject{
-        border: 1px solid #D32F2F;
-        color: #D32F2F;
+    &.reject {
+        border: 1px solid #d32f2f;
+        color: #d32f2f;
     }
 }

@@ -30,6 +30,8 @@ Route::get('/', function(){ return redirect("/apperlog"); });
 
 Auth::routes();
 
+Route::get('/', function(){ return view('welcome'); });
+
 Route::get('/home', function(){ return redirect("/apperlog"); });
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
