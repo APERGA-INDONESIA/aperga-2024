@@ -1,68 +1,68 @@
-<footer class='bg-[#1B2223] h-[458px] px-[137px] py-[65px] text-[#ffffff]'>
-    <div class='space-y-[45px]'>
-      <div class='space-y-[33px]'>
-        <div class='flex justify-between items-center w-full'>
-          <div class='inline-block space-y-4'>
-            <div class='bg-white items-center inline-flex rounded-xl px-7 py-2'>
+<footer class='bg-[#1B2223] min-h-[458px] px-8 py-10 md:px-16 lg:px-24 lg:py-16 text-[#ffffff]'>
+    <div class='space-y-10'>
+      <div class='space-y-8'>
+        <div class='flex flex-col gap-4 sm:flex-row justify-between items-start sm:items-center w-full'>
+          <div class='flex flex-row sm:flex-col gap-4 justify-between items-center sm:items-start'>
+            <a class='bg-white items-center inline-flex rounded-xl px-4 py-2' href="#">
               <img
-                src='{{asset('img/landing-page/Logo.png')}}'
+                src='{{asset("img/landing-page/Logo.png")}}'
                 alt='logo'
                 class="w-[129px]"
               />
-            </div>
-            <div class="font-bold text-[20px]">
+            </a>
+            <div class="font-bold text-4 lg:text-5">
               PT Adi Perkasa Guna Tbk
             </div>
           </div>
-          <div class='flex flex-col justify-between space-y-4'>
-            <div class="font-bold text-[20px]">
+          <div class='flex flex-row sm:flex-col justify-between gap-4 items-center sm:items-end'>
+            <div class="font-bold text-4 lg:text-5">
               Hubungi Kami:
             </div>
-            <div class='flex space-x-[10px] justify-end'>
-              <div class='rounded-full bg-white w-11 h-11 p-2.5 text-[#000000] flex justify-center items-center'>
+            <div class='flex space-x-2.5 justify-end'>
+              <a class='rounded-full bg-white w-11 h-11 p-2.5 text-[#000000] flex justify-center items-center cursor-pointer' href="https:/wa.me/6287782454935">
                 <img src="{{asset('img/landing-page/phone.png')}}" />
-              </div>
-              <div class='rounded-full bg-white w-11 h-11 p-2.5 text-[#000000] flex justify-center items-center'>
+              </a>
+              <a class='rounded-full bg-white w-11 h-11 p-2.5 text-[#000000] flex justify-center items-center cursor-pointer' href="mailto:apergaindonesia@gmail.com">
                 <img src="{{asset('img/landing-page/mail.png')}}" alt="">
-              </div>
+              </a>
             </div>
           </div>
         </div>
         <hr class='border-t-2 border-[#ffffff]' />
-        <div class='flex justify-between'>
-          <div class='inline-block space-y-[17px] inline-block w-[393px]'>
-            <div class="font-bold text-[20px]">
+        <div class='flex flex-col justify-between lg:flex-row gap-4'>
+          <div class='space-y-4 inline-block max-w-xs'>
+            <div class="font-bold text-4 lg:text-5">
               Tentang Kami
             </div>
-            <div  class=" text-[16px]">
+            <div  class="text-3.5 lg:text-4">
               Platform penyedia jasa pekerja rumah tangga terpercaya.
               Berlokasi di Surabaya, Indonesia.
             </div>
           </div>
-          <div class='space-y-[17px] inline-block'>
-            <div  class="font-bold text-[20px]">
+          <div class='space-y-4 inline-block'>
+            <div  class="font-bold text-4 lg:text-5">
               Syarat dan Ketentuan
             </div>
-            <div class='inline-block space-y-[12px]'>
-              <div class="text-[16px]">
+            <div class='inline-block space-y-3'>
+              <div class="text-3.5 lg:text-4">
                 Pelanggan
               </div>
-              <div class="text-[16px]">
+              <div class="text-3.5 lg:text-4">
                 Mitra
               </div>
             </div>
           </div>
-          <div class='space-y-[17px] inline-block'>
-            <div  class="font-bold text-[20px]">
+          <div class='space-y-4 inline-block'>
+            <div  class="font-bold text-4 lg:text-5">
               Program Kami
             </div>
-            <div class='inline-block space-y-[12px]'>
-              <div class="text-[16px]">
+            <div class='inline-block space-y-3'>
+              <div class="text-3.5 lg:text-4">
                 Kerja Sama Mitra
               </div>
-              <div class="text-[16px]">
+              <div class="text-3.5 lg:text-4">
                 Pencarian PRT
-              </d>
+              </div>
             </div>
           </div>
         </div>
