@@ -12,7 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Styles -->
-    @vite('resources/sass/app.scss')
+    {{-- @vite('resources/sass/app.scss') --}}
 </head>
 
 <body class="antialiased">
