@@ -9,6 +9,11 @@ export default defineConfig({
                 'resources/js/app.js',
             ],
             refresh: true,
+            build: {
+                manifest: true,
+                outDir: 'public',
+                assetsDir: 'build',
+            }
         }),
     ],
 });
